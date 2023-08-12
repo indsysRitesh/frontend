@@ -1,0 +1,303 @@
+#user .noUi-target {
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -ms-touch-action: none;
+    touch-action: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    background: #FAFAFA;
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+    box-shadow: inset 0 1px 1px #F0F0F0, 0 3px 6px -5px #BBB;
+  }
+  #user .noUi-target * {
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -ms-touch-action: none;
+    touch-action: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #user .noUi-base {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  #user .noUi-connects {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: 3px;
+  }
+  #user .noUi-connect {
+    will-change: transform;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    -ms-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform-style: preserve-3d;
+    transform-origin: 0 0;
+    transform-style: flat;
+    background: #3FB8AF;
+  }
+  #user .noUi-origin {
+    will-change: transform;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    -ms-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform-style: preserve-3d;
+    transform-origin: 0 0;
+    transform-style: flat;
+  }
+  #user .noUi-txt-dir-rtl.noUi-horizontal .noUi-origin {
+    left: 0;
+    right: auto;
+  }
+  #user .noUi-txt-dir-rtl.noUi-horizontal .noUi-handle {
+    left: -17px;
+    right: auto;
+  }
+  #user .noUi-vertical {
+    width: 18px;
+  }
+  #user .noUi-vertical .noUi-origin {
+    top: -100%;
+    width: 0;
+  }
+  #user .noUi-vertical .noUi-origin > .noUi-tooltip {
+    -webkit-transform: translate(0, -18px);
+    transform: translate(0, -18px);
+    top: auto;
+    right: 28px;
+  }
+  #user .noUi-vertical .noUi-handle {
+    width: 28px;
+    height: 34px;
+    right: -6px;
+    bottom: -17px;
+  }
+  #user .noUi-vertical .noUi-handle:after {
+    width: 14px;
+    height: 1px;
+    left: 6px;
+    top: 14px;
+    top: 17px;
+  }
+  #user .noUi-vertical .noUi-handle:before {
+    width: 14px;
+    height: 1px;
+    left: 6px;
+    top: 14px;
+  }
+  #user .noUi-vertical .noUi-draggable {
+    cursor: ns-resize;
+  }
+  #user .noUi-vertical .noUi-tooltip {
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    top: 50%;
+    right: 120%;
+  }
+  #user .noUi-horizontal {
+    height: 18px;
+  }
+  #user .noUi-horizontal .noUi-origin {
+    height: 0;
+  }
+  #user .noUi-horizontal .noUi-origin > .noUi-tooltip {
+    -webkit-transform: translate(50%, 0);
+    transform: translate(50%, 0);
+    left: auto;
+    bottom: 10px;
+  }
+  #user .noUi-horizontal .noUi-handle {
+    width: 34px;
+    height: 28px;
+    right: -17px;
+    top: -6px;
+  }
+  #user .noUi-horizontal .noUi-tooltip {
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    left: 50%;
+    bottom: 120%;
+  }
+  #user .noUi-handle {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    background: #FFF;
+    cursor: default;
+    box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+  }
+  #user .noUi-handle:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 14px;
+    width: 1px;
+    background: #E8E7E6;
+    left: 14px;
+    top: 6px;
+    left: 17px;
+  }
+  #user .noUi-handle:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 14px;
+    width: 1px;
+    background: #E8E7E6;
+    left: 14px;
+    top: 6px;
+  }
+  #user .noUi-touch-area {
+    height: 100%;
+    width: 100%;
+  }
+  #user .noUi-state-tap .noUi-connect {
+    -webkit-transition: transform 0.3s;
+    transition: transform 0.3s;
+  }
+  #user .noUi-state-tap .noUi-origin {
+    -webkit-transition: transform 0.3s;
+    transition: transform 0.3s;
+  }
+  #user .noUi-state-drag * {
+    cursor: inherit !important;
+  }
+  #user .noUi-draggable {
+    cursor: ew-resize;
+  }
+  #user .noUi-active {
+    box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #DDD, 0 3px 6px -3px #BBB;
+  }
+  #user [disabled] .noUi-connect {
+    background: #B8B8B8;
+  }
+  #user [disabled] .noUi-handle {
+    cursor: not-allowed;
+  }
+  #user [disabled].noUi-handle {
+    cursor: not-allowed;
+  }
+  #user [disabled].noUi-target {
+    cursor: not-allowed;
+  }
+  #user .noUi-pips {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    color: #999;
+  }
+  #user .noUi-pips * {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #user .noUi-value {
+    position: absolute;
+    white-space: nowrap;
+    text-align: center;
+  }
+  #user .noUi-value-sub {
+    color: #ccc;
+    font-size: 10px;
+  }
+  #user .noUi-marker {
+    position: absolute;
+    background: #CCC;
+  }
+  #user .noUi-marker-sub {
+    background: #AAA;
+  }
+  #user .noUi-marker-large {
+    background: #AAA;
+  }
+  #user .noUi-pips-horizontal {
+    padding: 10px 0;
+    height: 80px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+  #user .noUi-value-horizontal {
+    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+  }
+  #user .noUi-rtl .noUi-value-horizontal {
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+  }
+  #user .noUi-rtl .noUi-value-vertical {
+    -webkit-transform: translate(0, 50%);
+    transform: translate(0, 50%);
+  }
+  #user .noUi-marker-horizontal.noUi-marker {
+    margin-left: -1px;
+    width: 2px;
+    height: 5px;
+  }
+  #user .noUi-marker-horizontal.noUi-marker-sub {
+    height: 10px;
+  }
+  #user .noUi-marker-horizontal.noUi-marker-large {
+    height: 15px;
+  }
+  #user .noUi-pips-vertical {
+    padding: 0 10px;
+    height: 100%;
+    top: 0;
+    left: 100%;
+  }
+  #user .noUi-value-vertical {
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding-left: 25px;
+  }
+  #user .noUi-marker-vertical.noUi-marker {
+    width: 5px;
+    height: 2px;
+    margin-top: -1px;
+  }
+  #user .noUi-marker-vertical.noUi-marker-sub {
+    width: 10px;
+  }
+  #user .noUi-marker-vertical.noUi-marker-large {
+    width: 15px;
+  }
+  #user .noUi-tooltip {
+    display: block;
+    position: absolute;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  

@@ -1,0 +1,476 @@
+/**
+ * Selectize (v0.15.2)
+ * https://selectize.dev
+ *
+ * Copyright (c) 2013-2015 Brian Reavis & contributors
+ * Copyright (c) 2020-2023 Selectize Team & contributors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
+ * file except in compliance with the License. You may obtain a copy of the License at:
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+ * ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ *
+ * @author Brian Reavis <brian@thirdroute.com>
+ * @author Ris Adams <selectize@risadams.com>
+ */
+ @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  #dashboad .selectize-control.plugin-drag_drop.multi > .selectize-input.dragging {
+    overflow: visible;
+    overflow: visible;
+  }
+  #dashboad .selectize-control.plugin-drag_drop.multi > .selectize-input > div.ui-sortable-placeholder {
+    visibility: visible !important;
+    background: #f2f2f2 !important;
+    background: rgba(0, 0, 0, 0.06) !important;
+    border: 0 none !important;
+    box-shadow: inset 0 0 12px 4px #fff;
+    visibility: visible !important;
+    background: #f2f2f2 !important;
+    background: rgba(0, 0, 0, 0.06) !important;
+    border: 0 none !important;
+    box-shadow: inset 0 0 12px 4px #fff;
+  }
+  #dashboad .selectize-control.plugin-drag_drop .ui-sortable-placeholder::after {
+    content: "!";
+    visibility: hidden;
+    content: "!";
+    visibility: hidden;
+  }
+  #dashboad .selectize-control.plugin-drag_drop .ui-sortable-helper {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  #dashboad .selectize-dropdown.plugin-dropdown_header .selectize-dropdown-header {
+    position: relative;
+    padding: 10px 8px;
+    border-bottom: 1px solid #d0d0d0;
+    background: #f8f8f8;
+    border-radius: 3px 3px 0 0;
+    position: relative;
+    padding: 10px 8px;
+    border-bottom: 1px solid #d0d0d0;
+    background: #f8f8f8;
+    border-radius: 3px 3px 0 0;
+  }
+  #dashboad .selectize-dropdown.plugin-dropdown_header .selectize-dropdown-header-close {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    color: #303030;
+    opacity: 0.4;
+    margin-top: -12px;
+    line-height: 20px;
+    font-size: 20px !important;
+    text-decoration: none;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    color: #303030;
+    opacity: 0.4;
+    margin-top: -12px;
+    line-height: 20px;
+    font-size: 20px !important;
+    text-decoration: none;
+  }
+  #dashboad .selectize-dropdown.plugin-dropdown_header .selectize-dropdown-header-close:hover {
+    color: black;
+    color: black;
+  }
+  #dashboad .selectize-dropdown.plugin-optgroup_columns .selectize-dropdown-content {
+    display: flex;
+    display: flex;
+  }
+  #dashboad .selectize-dropdown.plugin-optgroup_columns .optgroup {
+    border-right: 1px solid #f2f2f2;
+    border-top: 0 none;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+    border-right: 1px solid #f2f2f2;
+    border-top: 0 none;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+  }
+  #dashboad .selectize-dropdown.plugin-optgroup_columns .optgroup:last-child {
+    border-right: 0 none;
+    border-right: 0 none;
+  }
+  #dashboad .selectize-dropdown.plugin-optgroup_columns .optgroup:before {
+    display: none;
+    display: none;
+  }
+  #dashboad .selectize-dropdown.plugin-optgroup_columns .optgroup-header {
+    border-top: 0 none;
+    border-top: 0 none;
+  }
+  #dashboad .selectize-control.plugin-remove_button .item {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 0 !important;
+    display: inline-flex;
+    align-items: center;
+    padding-right: 0 !important;
+  }
+  #dashboad .selectize-control.plugin-remove_button .item .remove {
+    color: inherit;
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 2px 6px;
+    border-left: 1px solid #d0d0d0;
+    border-radius: 0 2px 2px 0;
+    box-sizing: border-box;
+    margin-left: 6px;
+    color: inherit;
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 2px 6px;
+    border-left: 1px solid #d0d0d0;
+    border-radius: 0 2px 2px 0;
+    box-sizing: border-box;
+    margin-left: 6px;
+  }
+  #dashboad .selectize-control.plugin-remove_button .item .remove:hover {
+    background: rgba(0, 0, 0, 0.05);
+    background: rgba(0, 0, 0, 0.05);
+  }
+  #dashboad .selectize-control.plugin-remove_button .item.active .remove {
+    border-left-color: #cacaca;
+    border-left-color: #cacaca;
+  }
+  #dashboad .selectize-control.plugin-remove_button .disabled .item .remove {
+    border-left-color: white;
+    border-left-color: white;
+  }
+  #dashboad .selectize-control.plugin-remove_button .disabled .item .remove:hover {
+    background: 0;
+    background: 0;
+  }
+  #dashboad .selectize-control.plugin-clear_button .clear {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 25px;
+    top: 0;
+    right: calc(8px - 6px);
+    color: #000;
+    opacity: 0.4;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 21px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 25px;
+    top: 0;
+    right: calc(8px - 6px);
+    color: #000;
+    opacity: 0.4;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 21px;
+    justify-content: center;
+    align-items: center;
+  }
+  #dashboad .selectize-control.plugin-clear_button .clear:hover {
+    opacity: 1;
+    opacity: 1;
+  }
+  #dashboad .selectize-control.plugin-clear_button.single .clear {
+    right: calc(8px - 6px + 1.5rem);
+    right: calc(8px - 6px + 1.5rem);
+  }
+  #dashboad .selectize-dropdown.plugin-auto_position.selectize-position-top {
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 0 none;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.18);
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 0 none;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.18);
+  }
+  #dashboad .selectize-control.plugin-auto_position .selectize-input.selectize-position-top.dropdown-active {
+    border-radius: 0 0 3px 3px;
+    border-top: 0 none;
+    border-radius: 0 0 3px 3px;
+    border-top: 0 none;
+  }
+  #dashboad .selectize-control.plugin-auto_position .selectize-input.selectize-position-top.dropdown-active::before {
+    top: 0;
+    bottom: unset;
+    top: 0;
+    bottom: unset;
+  }
+  #dashboad .selectize-control {
+    position: relative;
+  }
+  #dashboad .selectize-control .selectize-input.disabled {
+    opacity: 0.5;
+    background-color: #fafafa;
+  }
+  #dashboad .selectize-dropdown {
+    color: #303030;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 18px;
+    font-smoothing: inherit;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    border: 1px solid #d0d0d0;
+    background: #fff;
+    margin: -1px 0 0 0;
+    border-top: 0 none;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 3px 3px;
+  }
+  #dashboad .selectize-dropdown [data-selectable] {
+    cursor: pointer;
+    overflow: hidden;
+  }
+  #dashboad .selectize-dropdown [data-selectable] .highlight {
+    background: rgba(125, 168, 208, 0.2);
+    border-radius: 1px;
+  }
+  #dashboad .selectize-dropdown .option {
+    padding: 5px 8px;
+    cursor: inherit;
+    opacity: 0.5;
+  }
+  #dashboad .selectize-dropdown .optgroup-header {
+    padding: 5px 8px;
+    color: #303030;
+    background: #fff;
+    cursor: default;
+  }
+  #dashboad .selectize-dropdown .no-results {
+    padding: 5px 8px;
+  }
+  #dashboad .selectize-dropdown .create {
+    padding: 5px 8px;
+    color: rgba(48, 48, 48, 0.5);
+  }
+  #dashboad .selectize-dropdown [data-disabled] {
+    cursor: inherit;
+    opacity: 0.5;
+  }
+  #dashboad .selectize-dropdown [data-disabled] [data-selectable].option {
+    cursor: inherit;
+    opacity: 0.5;
+  }
+  #dashboad .selectize-dropdown [data-selectable].option {
+    opacity: 1;
+    cursor: pointer;
+  }
+  #dashboad .selectize-dropdown .optgroup:first-child .optgroup-header {
+    border-top: 0 none;
+  }
+  #dashboad .selectize-dropdown .active {
+    background-color: #e8e8e8;
+    color: #303030;
+  }
+  #dashboad .selectize-dropdown .active:not(.selected) {
+    background: #f5fafd;
+    color: #495c68;
+  }
+  #dashboad .selectize-dropdown .active.create {
+    color: #495c68;
+  }
+  #dashboad .selectize-dropdown .selected {
+    background-color: #e8e8e8;
+    color: #303030;
+  }
+  #dashboad .selectize-dropdown .spinner {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px 8px;
+  }
+  #dashboad .selectize-dropdown .spinner:after {
+    content: " ";
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 3px;
+    border-radius: 50%;
+    border: 5px solid #d0d0d0;
+    border-color: #d0d0d0 transparent #d0d0d0 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  #dashboad .selectize-input {
+    color: #303030;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 18px;
+    font-smoothing: inherit;
+    background: #fff;
+    cursor: text;
+    display: inline-block;
+    border: 1px solid #d0d0d0;
+    padding: 8px 8px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+  }
+  #dashboad .selectize-input input {
+    color: #303030;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 18px;
+    font-smoothing: inherit;
+  }
+  #dashboad .selectize-input > * {
+    vertical-align: baseline;
+    display: inline-block;
+    zoom: 1;
+  }
+  #dashboad .selectize-input > input::-ms-clear {
+    display: none;
+  }
+  #dashboad .selectize-input > input:focus {
+    outline: none !important;
+  }
+  #dashboad .selectize-input > input[placeholder] {
+    box-sizing: initial;
+  }
+  #dashboad .selectize-input::after {
+    content: " ";
+    display: block;
+    clear: left;
+  }
+  #dashboad .selectize-control.single .selectize-input.input-active {
+    background: #fff;
+    cursor: text;
+    display: inline-block;
+    cursor: text;
+  }
+  #dashboad .selectize-control.single .selectize-input.input-active input:not(:read-only) {
+    cursor: text;
+  }
+  #dashboad .selectize-control.single .selectize-input {
+    cursor: pointer;
+  }
+  #dashboad .selectize-control.single .selectize-input input {
+    cursor: pointer;
+  }
+  #dashboad .selectize-control.single .selectize-input:not(.no-arrow):after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #808080 transparent transparent transparent;
+  }
+  #dashboad .selectize-control.single .selectize-input:not(.no-arrow).dropdown-active:after {
+    margin-top: -4px;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #808080 transparent;
+  }
+  #dashboad .selectize-control.multi .selectize-input.has-items {
+    padding: calc(8px - 2px - 0px) 8px calc(8px - 2px - 3px - 0px);
+  }
+  #dashboad .selectize-control.multi .selectize-input > div {
+    cursor: pointer;
+    margin: 0 3px 3px 0;
+    padding: 2px 6px;
+    background: #f2f2f2;
+    color: #303030;
+    border: 0 solid #d0d0d0;
+  }
+  #dashboad .selectize-control.multi .selectize-input > div.active {
+    background: #e8e8e8;
+    color: #303030;
+    border: 0 solid #cacaca;
+  }
+  #dashboad .selectize-control.multi .selectize-input.disabled > div {
+    color: #7d7d7d;
+    background: white;
+    border: 0 solid white;
+  }
+  #dashboad .selectize-control.multi .selectize-input.disabled > div.active {
+    color: #7d7d7d;
+    background: white;
+    border: 0 solid white;
+  }
+  #dashboad .selectize-input.full {
+    background-color: #fff;
+  }
+  #dashboad .selectize-input.disabled {
+    cursor: default !important;
+  }
+  #dashboad .selectize-input.disabled * {
+    cursor: default !important;
+  }
+  #dashboad .selectize-input.focus {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  }
+  #dashboad .selectize-input.dropdown-active {
+    border-radius: 3px 3px 0 0;
+  }
+  #dashboad .selectize-input.dropdown-active::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    background: #f0f0f0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #dashboad .selectize-input.has-items > input {
+    margin: 0 0 !important;
+  }
+  #dashboad .selectize-dropdown-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 200px;
+    overflow-scrolling: touch;
+  }
+  #dashboad .selectize-dropdown-emptyoptionlabel {
+    text-align: center;
+  }
+  #dashboad .selectize-control.rtl {
+    text-align: right;
+  }
+  #dashboad .selectize-control.rtl .selectize-input > input {
+    margin: 0 4px 0 -2px !important;
+  }
+  #dashboad .selectize-control.rtl.single .selectize-input:after {
+    left: 15px;
+    right: auto;
+  }
+  

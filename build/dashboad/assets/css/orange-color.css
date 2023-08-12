@@ -1,0 +1,448 @@
+/* Global Styles */
+@-webkit-keyframes loader {
+  0% {
+    background: #a9b4cc;
+  }
+  50% {
+    background: #fe5502;
+  }
+  100% {
+    background: #a9b4cc;
+  }
+}
+@keyframes loader {
+  0% {
+    background: #a9b4cc;
+  }
+  50% {
+    background: #fe5502;
+  }
+  100% {
+    background: #a9b4cc;
+  }
+}
+/* Header Section */
+/* Right Sidebar Section */
+/* Sidebar Menu Section */
+/* Main Content Section */
+#dashboad input {
+  border: 1px solid rgba(254, 85, 2, 0.2);
+}
+#dashboad .dataTables_wrapper .dataTables_filter input:focus {
+  border-color: #fe5502;
+}
+#dashboad .select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background: #fe5502;
+}
+#dashboad .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  color: white;
+}
+#dashboad .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background: #da5818;
+  color: white;
+}
+#dashboad .select2-container--default .select2-search--dropdown .select2-search__field:focus {
+  border-color: #fe5502;
+}
+#dashboad .select2-container--default.select2-container--focus .select2-selection--multiple {
+  border-color: #fe5502;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(254, 85, 2, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(254, 85, 2, 0.25);
+}
+#dashboad .daterangepicker .ranges li.active {
+  background: #fe5502;
+}
+#dashboad .daterangepicker td.active {
+  background: #fe5502;
+}
+#dashboad .daterangepicker td.active:hover {
+  background: #fe5502;
+}
+#dashboad .dtp > .dtp-content > .dtp-date-view > header.dtp-header {
+  background: #fe5502;
+}
+#dashboad .dtp .p10 > a {
+  color: #fe5502;
+}
+#dashboad .dtp table.dtp-picker-days tr > td > a.selected {
+  background: #fe5502;
+}
+#dashboad .dtp .dtp-actual-meridien a.selected {
+  background: #fe5502;
+}
+#dashboad .minute-hand[stroke="#8BC34A"] {
+  stroke: #fe5502;
+}
+#dashboad .hour-hand[stroke="#8BC34A"] {
+  stroke: #fe5502;
+}
+#dashboad .dtp-select-minute[fill="#8BC34A"] {
+  fill: #fe5502;
+}
+#dashboad .dtp-select-hour[fill="#8BC34A"] {
+  fill: #fe5502;
+}
+#dashboad .year-picker-item:hover {
+  color: #fe5502;
+}
+#dashboad .year-picker-item.active {
+  color: #fe5502;
+}
+#dashboad .ui-datepicker td a.ui-state-highlight {
+  background: #fe5502;
+}
+#dashboad .fc-event {
+  background-color: #fe5502;
+}
+#dashboad .fc-event-dot {
+  background-color: #fe5502;
+}
+#dashboad .swiper-pagination-bullet {
+  background: #fe5502;
+}
+#dashboad .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #fe5502;
+}
+#dashboad .swiper-pagination.swiper-pagination-vertical .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #fe5502;
+}
+#dashboad .bg-primary {
+  background-color: #fe5502 !important;
+}
+#dashboad .text-primary {
+  color: #fe5502 !important;
+}
+#dashboad .btn-group .btn-primary {
+  border-color: #af4d1c;
+}
+#dashboad .btn.show {
+  background-color: #af4d1c;
+  border-color: #fe5502;
+}
+#dashboad .btn-primary {
+  background: #fe5502;
+  border: 1px solid #fe5502;
+}
+#dashboad .btn-primary:hover {
+  background: #af4d1c;
+  border-color: #fe5502;
+}
+#dashboad .btn-primary:active {
+  background-color: #af4d1c !important;
+  border-color: #fe5502 !important;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(175, 77, 28, 0.3);
+  box-shadow: 0 0 0 0.25rem rgba(175, 77, 28, 0.3);
+}
+#dashboad .btn-primary:focus {
+  background-color: #af4d1c !important;
+  border-color: #fe5502 !important;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(175, 77, 28, 0.3);
+  box-shadow: 0 0 0 0.25rem rgba(175, 77, 28, 0.3);
+}
+#dashboad .btn-primary:disabled {
+  background: #fe5502;
+  border-color: #fe5502;
+}
+#dashboad .btn-primary.current {
+  background-color: #af4d1c;
+  border-color: #fe5502;
+}
+#dashboad .btn-primary.active {
+  background-color: #af4d1c;
+  border-color: #fe5502;
+}
+#dashboad .btn-primary.disabled {
+  background: #fe5502;
+  border-color: #fe5502;
+}
+#dashboad .border-primary {
+  border-color: #fe5502 !important;
+}
+#dashboad .btn-outline-primary {
+  border: 1px solid rgba(254, 85, 2, 0.2);
+}
+#dashboad .btn-outline-primary:hover {
+  background: #af4d1c;
+  border-color: #fe5502;
+}
+#dashboad .btn-outline-primary:active {
+  background-color: #af4d1c !important;
+  border-color: #fe5502 !important;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(175, 77, 28, 0.3);
+  box-shadow: 0 0 0 0.25rem rgba(175, 77, 28, 0.3);
+}
+#dashboad .btn-outline-primary:focus {
+  background-color: #af4d1c !important;
+  border-color: #fe5502 !important;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(175, 77, 28, 0.3);
+  box-shadow: 0 0 0 0.25rem rgba(175, 77, 28, 0.3);
+}
+#dashboad .btn-outline-primary.current {
+  background-color: #af4d1c;
+  border-color: #fe5502;
+}
+#dashboad .btn-outline-primary.active {
+  background-color: #af4d1c;
+  border-color: #fe5502;
+}
+#dashboad .form-select:focus {
+  border-color: #fe5502;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(254, 85, 2, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(254, 85, 2, 0.25);
+}
+#dashboad .form-control:focus {
+  border-color: #fe5502;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(254, 85, 2, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(254, 85, 2, 0.25);
+}
+#dashboad .form-check .form-check-input:focus {
+  border-color: #fe5502;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(254, 85, 2, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(254, 85, 2, 0.25);
+}
+#dashboad .form-check.form-switch .form-check-input:checked {
+  background-color: #fe5502;
+  border-color: #fe5502;
+}
+#dashboad .tooltip {
+  --bs-tooltip-bg: #F19C49;
+}
+#dashboad .progress {
+  --bs-progress-bar-bg: #F19C49;
+}
+#dashboad .progress-stacked {
+  --bs-progress-bar-bg: #F19C49;
+}
+#dashboad .panel .panel-header form:focus-within {
+  -webkit-box-shadow: 0 0 0 0.15rem rgba(254, 85, 2, 0.25);
+  box-shadow: 0 0 0 0.15rem rgba(254, 85, 2, 0.25);
+}
+#dashboad .input-group-with-icon:focus-within {
+  border-color: #fe5502;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(254, 85, 2, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(254, 85, 2, 0.25);
+}
+#dashboad input[type=radio]:checked {
+  background-color: #fe5502;
+  border-color: #fe5502;
+}
+#dashboad input[type=checkbox]:checked {
+  background-color: #fe5502;
+  border-color: #fe5502;
+}
+#dashboad .light-theme .btn-outline-primary {
+  border-color: rgba(254, 85, 2, 0.5);
+  color: #af4d1c;
+}
+#dashboad .light-theme .right-sidebar .bg-menu {
+  background: rgba(254, 85, 2, 0.1);
+}
+#dashboad .light-theme .right-sidebar .bg-nav {
+  background: rgba(254, 85, 2, 0.4) !important;
+}
+#dashboad .light-theme .main-sidebar.horizontal-menu {
+  background-color: #fe5502;
+}
+#dashboad .light-theme .main-sidebar.horizontal-menu::after {
+  background: rgba(254, 85, 2, 0.7);
+}
+#dashboad .light-theme .sidebar-link-group-title {
+  background: #fe5502;
+}
+#dashboad .light-theme .main-content .dashboard-top-box .right .part-icon.text-light {
+  color: #fe5502 !important;
+}
+#dashboad .header-right-btns .header-form {
+  border: 1px solid rgba(254, 85, 2, 0.3);
+}
+#dashboad .header-right-btns .header-form:focus-within {
+  border-color: #fe5502;
+}
+#dashboad .header-right-btns .header-btn-box .show-all-btn {
+  border: 1px solid rgba(254, 85, 2, 0.3);
+}
+#dashboad .dropdown-menu .dropdown-item:hover {
+  background: #fe5502;
+}
+#dashboad .right-sidebar .right-bar-close::after {
+  background: #fe5502;
+}
+#dashboad .right-sidebar .sidebar-title {
+  background: #fe5502;
+}
+#dashboad .right-sidebar .dashboard-icon::after {
+  background: #fe5502;
+}
+#dashboad .right-sidebar .dashboard-icon:hover {
+  border-color: #fe5502 !important;
+}
+#dashboad .right-sidebar .dashboard-icon.active {
+  border-color: #fe5502 !important;
+}
+#dashboad .right-sidebar .bg-menu {
+  background: rgba(254, 85, 2, 0.05);
+}
+#dashboad .right-sidebar .bg-nav {
+  background: rgba(254, 85, 2, 0.15);
+}
+#dashboad .right-sidebar .main-content-bg-btn-box button::after {
+  background: rgba(133, 61, 25, 0.7);
+}
+#dashboad .right-sidebar .main-content-bg-btn-box button.active {
+  border-color: #fe5502;
+}
+#dashboad .right-sidebar .sidebar-bg-btn-box button::after {
+  background: rgba(133, 61, 25, 0.7);
+}
+#dashboad .right-sidebar .sidebar-bg-btn-box button.active {
+  border-color: #fe5502;
+}
+#dashboad .main-sidebar.horizontal-menu {
+  background-color: #da5818;
+}
+#dashboad .main-sidebar.horizontal-menu::after {
+  background: rgba(218, 88, 24, 0.7);
+}
+#dashboad .main-sidebar.two-column-menu.collapsed .sidebar-item .sidebar-link.has-sub.show {
+  background: #fe5502;
+}
+#dashboad .sidebar-item {
+  border: 1px solid rgba(254, 85, 2, 0.2);
+}
+#dashboad .sidebar-link-group-title {
+  background: #da5818;
+}
+#dashboad .sidebar-item.open .sidebar-link {
+  background: #fe5502;
+}
+#dashboad .collapsed .sidebar-item .sidebar-link.has-sub.show {
+  background: rgba(254, 85, 2, 0.2);
+}
+#dashboad .sidebar-menu .help-center {
+  background: #fe5502;
+}
+#dashboad .main-content.login-panel.login-panel-2 .panel-title::after {
+  background: #fe5502;
+}
+#dashboad .main-content .dashboard-filter .input-group-text {
+  background: #fe5502;
+}
+#dashboad .main-content .dashboard-top-box {
+  border-top: 1px solid #fe5502;
+}
+#dashboad .main-content .dashboard-top-box .left a:hover {
+  color: #fe5502;
+}
+#dashboad .main-content .dashboard-top-box .right .part-icon {
+  color: #fe5502;
+}
+#dashboad .main-content .dashboard-top-box:hover .right .part-icon {
+  background: #fe5502;
+}
+#dashboad .main-content .dashboard-top-box.dashboard-top-box-2:hover .right {
+  border-color: #fe5502;
+}
+#dashboad .main-content .visitor-table td span {
+  background: #fe5502;
+}
+#dashboad .main-content .table-activity tr:hover .date-box {
+  background: #fe5502;
+}
+#dashboad .main-content .hr-recent-activity li::before {
+  border-color: #fe5502;
+}
+#dashboad .main-content .hr-recent-activity li::after {
+  background: #fe5502;
+}
+#dashboad .main-content .hr-notice-board li:hover .date-box {
+  background: #fe5502;
+}
+#dashboad .main-content .table-bottom-control .btn.current {
+  background: #fe5502;
+}
+#dashboad .main-content .login-body.login-body-2 .top {
+  border: 4px solid #fe5502;
+}
+#dashboad .main-content .login-body.login-body-2 .top a {
+  color: #fe5502;
+}
+#dashboad .main-content .login-body .bottom .other-option .social-box a {
+  color: #fe5502;
+}
+#dashboad .main-content .login-body .bottom .other-option .social-box a:hover {
+  background: #fe5502;
+}
+#dashboad .main-content .profile-sidebar .top .image-wrap .image-change {
+  background: #fe5502;
+}
+#dashboad .main-content .profile-sidebar .top .part-txt .admin-social a:hover {
+  color: #fe5502;
+}
+#dashboad .main-content .user-activity ul li .left::before {
+  background: #fe5502;
+}
+#dashboad .main-content .user-activity ul li:hover .left::after {
+  background: #fe5502;
+}
+#dashboad .main-content .profile-edit-tab .admin-profile .image-wrap .image-change {
+  background: #fe5502;
+}
+#dashboad .main-content .file-manager-card .top .dropdown-menu .dropdown-item:active {
+  color: #fe5502;
+}
+#dashboad .main-content .file-manager-card .top .dropdown-menu .dropdown-item:focus {
+  color: #fe5502;
+}
+#dashboad .main-content .file-manager-card .top .dropdown-menu .dropdown-item:hover {
+  color: #fe5502;
+}
+#dashboad .main-content .file-card .action .dropdown-menu .dropdown-item:active {
+  color: #fe5502;
+}
+#dashboad .main-content .file-card .action .dropdown-menu .dropdown-item:focus {
+  color: #fe5502;
+}
+#dashboad .main-content .file-card .action .dropdown-menu .dropdown-item:hover {
+  color: #fe5502;
+}
+#dashboad .main-content .chatting-panel .msg-area .single-message.outgoing .msg-box .msg-box-inner .sent-status.seen {
+  color: #fe5502;
+}
+#dashboad .main-content .chatting-panel .msg-area .single-message .msg-box .msg-box-inner {
+  background: #fe5502;
+}
+#dashboad .main-content .chatting-panel .msg-area .single-message .msg-box .msg-box-inner:last-child::after {
+  border-bottom-color: #fe5502;
+}
+#dashboad .main-content .email-panel .emial-menu-list ul li button:hover {
+  background: #fe5502;
+}
+#dashboad .main-content .email-panel .emial-menu-list ul li button.active {
+  background: #fe5502;
+}
+#dashboad .main-content .ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+  border-color: #fe5502;
+}
+#dashboad .voice-call::after {
+  background: #fe5502;
+}
+#dashboad .dropzone .dz-message .dz-button i {
+  color: #fe5502;
+}
+#dashboad .compose-mail .ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+  border-color: #fe5502;
+}
+@media only screen and (min-width: 320px) and (max-width: 1399px) {
+  #dashboad .light-theme .main-content .chatting-panel .chatting-panel-top-btns > .btn.btn-icon:focus-visible {
+    color: #fe5502;
+  }
+  #dashboad .light-theme .main-content .chatting-panel .chatting-panel-top-btns > .btn.btn-icon:hover {
+    color: #fe5502;
+  }
+  #dashboad .light-theme .main-content .chatting-panel .chatting-panel-top-btns > .btn.btn-icon:active {
+    color: #fe5502;
+  }
+  #dashboad .light-theme .main-content .chatting-panel .chatting-panel-top-btns > .btn.btn-icon:focus {
+    color: #fe5502;
+  }
+}
